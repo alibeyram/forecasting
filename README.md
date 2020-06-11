@@ -1,6 +1,15 @@
-# Forecasting Best Practices 
+# 
+# KDD 2020 Tutorial - Building Forecasting Solutions Using Open-Source and Azure Machine Learning 
 
-Time series forecasting is one of the most important topics in data science. Almost every business needs to predict the future in order to make better decisions and allocate resources more effectively.
+## Presenters:
+Chenhui Hu, Vanja Paunic 
+@Microsoft
+
+
+Time series forecasting is one of the most important topics in data science. Almost every business needs to predict the future in order to make better decisions and allocate resources more effectively. Examples of time series forecasting use cases are: financial forecasting, demand forecasting in logistics for operational planning of assets, demand forecasting for Azure resources and energy demand forecasting for campus buildings and data centers. The goal of this tutorial is to demonstrate state-of-the-art forecasting approaches to problems in retail and introduce a new repository focusing on best-practices in forecasting domain, along with a library of forecasting utilities.
+
+
+## Forecasting Best Practices
 
 This repository provides examples and best practice guidelines for building forecasting solutions. The goal of this repository is to build a comprehensive set of tools and examples that leverage recent advances in forecasting algorithms to build solutions and operationalize them. Rather than creating implementations from scratch, we draw from existing state-of-the-art libraries and build additional utilities around processing and featurizing the data, optimizing and evaluating models, and scaling up to the cloud. 
 
