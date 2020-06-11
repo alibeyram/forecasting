@@ -24,7 +24,7 @@ The repository also contains best-practice implementations in R language. Time p
 1. Tutorial introduction
     * Tutorial goals
     * Agenda
-    * Target audience
+    * [Target audience](#Target-Audience)
     * Technical set-up
 
 2. Introduction to time series forecasting
@@ -128,7 +128,7 @@ The recommended editor is [RStudio](https://rstudio.com), which supports interac
 
 The examples use the [Tidyverts](https://tidyverts.org) family of packages, which is a modern framework for time series analysis that builds on the widely-used [Tidyverse](https://tidyverse.org) family. The Tidyverts framework is still under active development, so it's recommended that you update your packages regularly to get the latest bug fixes and features.
 
-## Target Audience
+## [Target Audience](#Target-Audience)
 Our target audience for this repository includes data scientists and machine learning engineers with varying levels of knowledge in forecasting as our content is source-only and targets custom machine learning modelling. The utilities and examples provided are intended to be solution accelerators for real-world forecasting problems.
 
 ## Contributing
