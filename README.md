@@ -21,9 +21,8 @@ The repository also contains best-practice implementations in R language. Time p
 
 ## [Tutorial Outline](#Tutorial-Outline)
 
-1. Tutorial introduction
-    * Tutorial goals
-    * Agenda
+1. [Tutorial introduction](#Tutorial-Overview)
+    * Tutorial goals and agenda
     * [Target audience](#Target-Audience)
     * [Technical set-up](#Getting-Started-in-Python)
 
