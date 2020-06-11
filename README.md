@@ -120,7 +120,7 @@ To quickly get started with the repository on your local machine, use the follow
 
 If you have any issues with the above setup, or want to find more detailed instructions on how to set up your environment and run examples provided in the repository, on local or a remote machine, please navigate to the [Setup Guide](./docs/SETUP.md).
 
-## Getting Started in R
+## [Getting Started in R](#Getting-Started-in-R)
 
 We assume you already have R installed on your machine. If not, simply follow the [instructions on CRAN](https://cloud.r-project.org/) to download and install R.
 
