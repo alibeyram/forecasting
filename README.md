@@ -1,10 +1,19 @@
 # 
 # KDD 2020 Tutorial - Building Forecasting Solutions Using Open-Source and Azure Machine Learning 
 
-## Presenters: Chenhui Hu @Microsoft, Vanja Paunic @Microsoft
+** Presenters: Chenhui Hu @Microsoft, Vanja Paunic @Microsoft **
+** Contributor: Hong Ooi @Microsoft
 
 
 Time series forecasting is one of the most important topics in data science. Almost every business needs to predict the future in order to make better decisions and allocate resources more effectively. Examples of time series forecasting use cases are: financial forecasting, demand forecasting in logistics for operational planning of assets, demand forecasting for Azure resources and energy demand forecasting for campus buildings and data centers. The goal of this tutorial is to demonstrate state-of-the-art forecasting approaches to problems in retail and introduce a new repository focusing on best-practices in forecasting domain, along with a library of forecasting utilities.
+
+The tutorial will start with a quick overview of time series forecasting and traditional time series models to provide the audience with a clear background on the kind of problems that we aim to solve. We will also briefly explore the dataset to be used in all exercises.
+ 
+Next, we will run through several exercises to solve a forecasting problem in retail. We will start with a traditional statistical approach, e.g. ARIMA, using an auto-arima function in python. Next we will cover machine-learning based approach to forecasting, and cover various ways to featurize the time series dataset, then train a LightGBM model. Finally, we will describe a deep-neural-net based approach, namely Dilated CNN, and train a Dilated CNN model on our data. Using LightGBM and Dilated CNN - two efficient and state-of-the-art models, we can train the models quickly and achieve very high forecasting accuracies. 
+
+In the last part of the tutorial, we will cover an example of hyper-parameter tuning in forecasting, and use HyperDrive in Azure Machine Learning service to achieve the task. As a part of this exercise, we will also demonstrate how to deploy the trained model to Azure Container Instance (ACI), and test the deployed service.
+ 
+The repository also contains best-practice implementations in R language. Time permitting, we will cover common approaches to solving forecasting problems in R, ranging from simple regression models to more complex one, such as a Prophet package in R.
 
 
 ## Forecasting Best Practices
