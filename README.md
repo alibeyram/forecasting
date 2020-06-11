@@ -8,7 +8,7 @@
 
 Time series forecasting is one of the most important topics in data science. Almost every business needs to predict the future in order to make better decisions and allocate resources more effectively. Examples of time series forecasting use cases are: financial forecasting, demand forecasting in logistics for operational planning of assets, demand forecasting for Azure resources and energy demand forecasting for campus buildings and data centers. The goal of this tutorial is to demonstrate state-of-the-art forecasting approaches to problems in retail and introduce a new repository focusing on best-practices in forecasting domain, along with a library of forecasting utilities.
 
-## Tutorial Overview
+## [Tutorial Overview](#Tutorial-Overview)
 
 The tutorial will start with a quick overview of time series forecasting and traditional time series models to provide the audience with a clear background on the kind of problems that we aim to solve. We will also briefly explore the dataset to be used in all exercises.
  
@@ -19,49 +19,49 @@ In the last part of the tutorial, we will cover an example of hyper-parameter tu
 The repository also contains best-practice implementations in R language. Time permitting, we will cover common approaches to solving forecasting problems in R, ranging from simple regression models to more complex one, such as a Prophet package in R.
 
 
-## Tutorial Outline
+## [Tutorial Outline](#Tutorial-Outline)
 
 1. Tutorial introduction
     * Tutorial goals
     * Agenda
     * [Target audience](#Target-Audience)
-    * Technical set-up
+    * [Technical set-up](#Getting-Started-in-Python)
 
 2. Introduction to time series forecasting
     * Intro to times series forecasting
-    * Overview of the public Forecasting Best-Practices repository
-    * Retail data exploration and preparation
+    * [Overview of the public Forecasting Best-Practices repository](#Forecasting-Best-Practices)
+    * [Retail data exploration and preparation](examples/grocery_sales/python/01_prepare_data/)
 
-3.	Hands-on: statistical time series forecasting
+3.	[Hands-on: statistical time series forecasting](examples/grocery_sales/python/00_quick_start/autoarima_single_round.ipynb)
     * Data preparation
     * Time series cross-validation
     * Training a forecasting model using Auto-Arima
     * Forecasting evaluation
 
-4.	Hands-on: LightGBM
+4.	[Hands-on: LightGBM](examples/grocery_sales/python/00_quick_start/lightgbm_single_round.ipynb)
     * Time series data featurization
     * Training a LightGBM model
    
-5.	Hyper-parameter tuning
+5.	[Hyper-parameter tuning](examples/grocery_sales/python/03_model_tune_deploy/azure_hyperdrive_lightgbm.ipynb)
     * How to do hyper-parameter tuning using Azure ML hyperdrive
     * Model deployment to Azure Container Instance
 
-6.	Hands-on: Dilated CNN
+6.	[Hands-on: Dilated CNN](examples/grocery_sales/python/02_model/dilatedcnn_multi_round.ipynb)
     * Training and evaluation of a Dilated CNN model
 
-7.	(Optional) Best-practice forecasting approaches in R
+7.	(Optional) [Best-practice forecasting approaches in R](examples/grocery_sales/R)
 
 8.	Conclusion and Q&A
 
 
-## Forecasting Best Practices
+## [Forecasting Best Practices](#Forecasting-Best-Practices)
 
 This repository provides examples and best practice guidelines for building forecasting solutions. The goal of this repository is to build a comprehensive set of tools and examples that leverage recent advances in forecasting algorithms to build solutions and operationalize them. Rather than creating implementations from scratch, we draw from existing state-of-the-art libraries and build additional utilities around processing and featurizing the data, optimizing and evaluating models, and scaling up to the cloud. 
 
 The examples and best practices are provided as [Python Jupyter notebooks and R markdown files](examples) and [a library of utility functions](fclib). We hope that these examples and utilities can significantly reduce the “time to market” by simplifying the experience from defining the business problem to the development of solutions by orders of magnitude. In addition, the example notebooks would serve as guidelines and showcase best practices and usage of the tools in a wide variety of languages.
 
 
-## Content
+## [Repository Content](#Repository-Content)
 
 The following is a summary of models and methods for developing forecasting solutions covered in this repository. The [examples](examples) are organized according to use cases. Currently, we focus on a retail sales forecasting use case as it is widely used in [assortment planning](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1569&context=edissertations), [inventory optimization](https://en.wikipedia.org/wiki/Inventory_optimization), and [price optimization](https://en.wikipedia.org/wiki/Price_optimization). To enable high-throughput forecasting scenarios, we have included examples for forecasting multiple time series with distributed training techniques such as Ray in Python, parallel package in R, and multi-threading in LightGBM. Note that html links are provided next to R examples for best viewing experience when reading this document on our [`github.io`](https://microsoft.github.io/forecasting/) page.
 
@@ -85,7 +85,7 @@ The repository also comes with AzureML-themed notebooks and best practices recip
 | [AzureML Web Service](examples/grocery_sales/python/03_model_tune_deploy/azure_hyperdrive_lightgbm.ipynb) | Python   | AzureML service for deploying a model as a web service on Azure Container Instances                        |
 
 
-## Getting Started in Python
+## [Getting Started in Python](#Getting-Started-in-Python)
 
 To quickly get started with the repository on your local machine, use the following commands.
 
@@ -131,10 +131,10 @@ The examples use the [Tidyverts](https://tidyverts.org) family of packages, whic
 ## [Target Audience](#Target-Audience)
 Our target audience for this repository includes data scientists and machine learning engineers with varying levels of knowledge in forecasting as our content is source-only and targets custom machine learning modelling. The utilities and examples provided are intended to be solution accelerators for real-world forecasting problems.
 
-## Contributing
+## [Contributing](#Contributing)
 We hope that the open source community would contribute to the content and bring in the latest SOTA algorithm. This project welcomes contributions and suggestions. Before contributing, please see our [Contributing Guide](CONTRIBUTING.md).
 
-## Reference
+## [Reference](#Reference)
 
 The following is a list of related repositories that you may find helpful.
 
@@ -145,7 +145,7 @@ The following is a list of related repositories that you may find helpful.
 
 
 
-## Build Status
+## [Build Status](#Build-Status)
 
 | Build         | Branch  | Status  |
 | -  | -  | - |
