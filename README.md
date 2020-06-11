@@ -8,7 +8,7 @@
 
 Time series forecasting is one of the most important topics in data science. Almost every business needs to predict the future in order to make better decisions and allocate resources more effectively. Examples of time series forecasting use cases are: financial forecasting, demand forecasting in logistics for operational planning of assets, demand forecasting for Azure resources and energy demand forecasting for campus buildings and data centers. The goal of this tutorial is to demonstrate state-of-the-art forecasting approaches to problems in retail and introduce a new repository focusing on best-practices in forecasting domain, along with a library of forecasting utilities.
 
-## Tutorial Overview and Outline
+## Tutorial Overview
 
 The tutorial will start with a quick overview of time series forecasting and traditional time series models to provide the audience with a clear background on the kind of problems that we aim to solve. We will also briefly explore the dataset to be used in all exercises.
  
@@ -18,35 +18,36 @@ In the last part of the tutorial, we will cover an example of hyper-parameter tu
  
 The repository also contains best-practice implementations in R language. Time permitting, we will cover common approaches to solving forecasting problems in R, ranging from simple regression models to more complex one, such as a Prophet package in R.
 
-Below is the outline of the tutorial:
 
-1.	Tutorial introduction
-   * Tutorial goals
-   * Agenda
-   * Target audience
-   * Technical set-up
+## Tutorial Outline
 
-2.	Introduction to time series forecasting
-   * Intro to times series forecasting
-   * Overview of the public Forecasting Best-Practices repository
-   * Retail data exploration and preparation
+1. Tutorial introduction
+    * Tutorial goals
+    * Agenda
+    * Target audience
+    * Technical set-up
+
+2. Introduction to time series forecasting
+    * Intro to times series forecasting
+    * Overview of the public Forecasting Best-Practices repository
+    * Retail data exploration and preparation
 
 3.	Hands-on: statistical time series forecasting
-   * Data preparation
-   * Time series cross validation
-   * Training a forecasting model using Auto-Arima
-   * Forecasting evaluation
+    * Data preparation
+    * Time series cross-validation
+    * Training a forecasting model using Auto-Arima
+    * Forecasting evaluation
 
 4.	Hands-on: LightGBM
-   * Time series data featurization
-   * Training a LightGBM model
+    * Time series data featurization
+    * Training a LightGBM model
    
 5.	Hyper-parameter tuning
-   * How to do hyper-parameter tuning using Azure ML hyperdrive
-   * Model deployment to Azure Container Instance
+    * How to do hyper-parameter tuning using Azure ML hyperdrive
+    * Model deployment to Azure Container Instance
 
 6.	Hands-on: Dilated CNN
-   * Training and evaluation of a Dilated CNN model
+    * Training and evaluation of a Dilated CNN model
 
 7.	(Optional) Best-practice forecasting approaches in R
 
@@ -115,7 +116,7 @@ To quickly get started with the repository on your local machine, use the follow
     jupyter notebook
     ```
     
-5. Run the [LightGBM single-round](examples/retail_sales/python/00_quick_start/lightgbm_single_round.ipynb) notebook under the `00_quick_start` folder. Make sure that the selected Jupyter kernel is `forecasting_env`.
+5. Run the [LightGBM single-round](examples/grocery_sales/python/00_quick_start/lightgbm_single_round.ipynb) notebook under the `00_quick_start` folder. Make sure that the selected Jupyter kernel is `forecasting_env`.
 
 If you have any issues with the above setup, or want to find more detailed instructions on how to set up your environment and run examples provided in the repository, on local or a remote machine, please navigate to the [Setup Guide](./docs/SETUP.md).
 
