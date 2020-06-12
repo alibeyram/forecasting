@@ -1,4 +1,3 @@
-# 
 # KDD 2020 Tutorial - Building Forecasting Solutions Using Open-Source and Azure Machine Learning 
 
 **Presenters: Chenhui Hu @Microsoft, Vanja Paunic @Microsoft**
