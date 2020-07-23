@@ -109,8 +109,9 @@ To quickly get started with the repository on your local machine, use the follow
 
     Note that for Windows you need to run the batch script from Anaconda Prompt. The script creates a conda environment `forecasting_env` and installs the forecasting utility library `fclib`.
 
-4. Start the Jupyter notebook server
+4. Activate conda environment and start the Jupyter notebook server
     ```
+    conda activate forecasting_env
     jupyter notebook
     ```
     
